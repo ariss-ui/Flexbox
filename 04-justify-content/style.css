@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;  /*  Default  */
+  justify-content: flex-start;  /*  Default Alinea al inicio principal  */
+  justify-content: flex-end;  /*  Alinea al Final principal */
+  justify-content: center;  /*  Alinea al Centro  */
+  justify-content: space-around;  /*  Distribuye eñ espacio disponible a cada lado de los elementos de forma proporcional  */
+  justify-content: space-between; /*  Distribuye el espacio disponible entre los elementos  */
+  justify-content: space-evenly;  /*  Distribuye el espacio unifrmemente entre los elementos y el contenedor  */
+  
+
+  margin: 0 auto;
+  box-sizing: content-box;
+  text-align: center;
+
+  width: 1000px;
+  height: 500px;
+  background-color: darkcyan;
+}
+
+.item {
+  box-sizing: border-box;
+
+  text-align: center;
+  padding-top: 36px;
+
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
