@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-content: normal; /* Valor por defecto */
+  align-content: flex-start; /* Lleva las lineas hacia el cross-start */
+  align-content: flex-end; /* Lleva las lineas hacia el cross-end */
+  align-content: center; /* Lleva las lineas al centro del cross-axis */
+  align-content: space-around; /* Distribuye el espacio emtre las lineas sin considerar el borde */
+  align-content: space-evenly; /* Distribuye el espacio proporcionalmente entre las lineas incluyendo los bordes */
+  align-content: stretch; /* Estira las lineas en el espacio dispobible, los items no deben tener alto definido */
+
+  width: 500px;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.item {
+  width: 150px;
+  height: 100px;
+  background-color: cadetblue;
+  text-align: center;
+  border: 1px solid black;
+}
