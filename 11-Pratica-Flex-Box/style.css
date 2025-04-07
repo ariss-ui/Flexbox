@@ -7,3 +7,115 @@
 body {
   font-family: sans-serif;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  border-bottom: 1px solid darkslateblue;
+}
+
+h1 {
+  color: cornflowerblue;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  color: steelblue;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a :hover {
+  color: rgb(41, 28, 53);
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+}
+
+aside {
+  padding: 1rem;
+  background-color: rgb(223, 218, 255);
+}
+
+h2 {
+  color: darkslateblue;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: cornflowerblue;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: flex-start;
+  background-color:  darkslateblue;
+}
+
+.card {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: slateblue;
+
+  cursor: pointer;
+}
+
+.card :hover {
+  background-color: rgb(58, 58, 82);
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+h3 {
+  margin-top: 0.5rem 0;
+  color: darkblue;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.copyright {
+  color: blueviolet;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 1rem;
+
+}
+
+.socialmedia a {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
